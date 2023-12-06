@@ -7,7 +7,7 @@ Future work will include a latex doc detailing the steps and basics behind VQE.
 
 
 VQE_1.ipynb:
-This is a 4 qubit example currently using the toy Hamiltonian (Z ^ Z) ^(I^2). The Hamiltonian could be changed to experiment with other 4 qubit systems. The ansatz for this example is implemented using the EfficientSU2 gate from qiskit.circuit.library. The gate has 2^(num_qubit) parameters. The gate has been included for reference for 4 qubits in Efficient_SU2.png. Optimization is done using SPSA, and QasmSimulatorPy was used for quantum simulation. The results are plotted in the end using matplotlib compared to the target ground state eigenvalue. Iterations over runtime were also plotted to determine efficiency over time during the VQE process.
+This is a 4 qubit example currently using the toy Hamiltonian (Z ^ Z) ^(I^2). The Hamiltonian could be changed to experiment with other 4 qubit systems. The ansatz for this example is implemented using the EfficientSU2 gate from qiskit.circuit.library. The gate has 4 * num_qubit parameters. The gate has been included for reference for 4 qubits in Efficient_SU2.png. Optimization is done using SPSA, and QasmSimulatorPy was used for quantum simulation. The results are plotted in the end using matplotlib compared to the target ground state eigenvalue. Iterations over runtime were also plotted to determine efficiency over time during the VQE process.
 
 
 
